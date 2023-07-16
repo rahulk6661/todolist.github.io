@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    padding: 1rem 2rem;
+    background-color: aqua;
+    color: black;
+    border:5px solid blue;
+    border-style: solid;
+    border-radius: 4rem;
+}
+button
+{
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background-color:black;
+    color:white;
+    border:2px solid blue;
+    border-style: solid;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0;
+}
